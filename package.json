@@ -1,0 +1,25 @@
+{
+  "name": "djweaver.dev",
+  "version": "0.0.1",
+  "description": "The portfolio website for djweaver.dev",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djweaver-dev/djweaver.dev.git"
+  },
+  "author": "Darin J. Weaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djweaver-dev/djweaver.dev/issues"
+  },
+  "homepage": "https://github.com/djweaver-dev/djweaver.dev#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0"
+  }
+}

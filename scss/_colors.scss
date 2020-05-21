@@ -1,0 +1,60 @@
+$royal-blue: #4169E1;
+$lime-green: #81B622;
+$rose-red: #C85250;
+$coral: rgb(255, 165, 96);
+$ivory: #EDE7DC;
+$ivory-dk: rgb(201, 187, 162);
+$ebony: #171810;
+$onyx: rgb(64, 67, 73);
+$onyx-dk: rgb(64, 67, 73);
+$onyx-md: rgba(64, 67, 73, .75);
+$onyx-lt: rgba(64, 67, 73, .5);
+$onyx-gh: rgba(64, 67, 73, .15);
+body {
+    background: $ivory;
+    color: $onyx;
+}
+a {
+    color: $royal-blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+#shadow {
+    // background: radial-gradient(circle, $royal-blue 0%, $ebony 120%);
+    background: $royal-blue;
+}
+header {
+    color: #fff;
+}
+nav {
+    color: #fff;
+    li {
+        ul {
+            background: rgba($ebony, .9);
+            color: #fff;
+        }
+    }
+    li:hover {
+        background: $coral;
+        color: $onyx;
+    }
+}
+main {
+    h2 {
+        font-size: 7.2rem;
+        color: $onyx-gh;
+    }
+}
+.content {
+    background: #fff;
+    h3 {
+        color: $coral;
+    }
+}
+footer{
+    background: rgba($ebony, .9);
+    color: $ivory;
+    a {
+        color: $coral;
+    }
+}

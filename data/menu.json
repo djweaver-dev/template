@@ -1,0 +1,10 @@
+{
+    "Home" : "anchor",
+    "About" : "link",
+    "Portfolio" : {
+        "djweaver.dev": "link", 
+        "ThemeForge" : "link", 
+        "ImgBored" : "link"
+    },
+    "Contact" : "link"
+}

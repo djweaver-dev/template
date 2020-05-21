@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>djweaver.dev</title>
+
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="modules/menu/menu.js"></script>
+        <script src="modules/dialog/dialog.js"></script>
+    </head>
+
+    <body>
+        <div id="shadow">
+
+            <header>
+                <h1>djweaver.dev</h1>
+                <h2>//Modern, <em>simple,</em>  solutions.</h2>
+            </header>
+            <nav>
+                <ul>
+                    <a href="" ><li>Home</li></a>
+                    <a href="about"><li>About</li></a>
+                    <a href="portfolio"><li>Portfolio</li></a>
+                    <a href="contact"><li>Contact</li></a>
+                </ul>
+            </nav>
+
+        </div>
+        <main>
+
+            <%- include(section) %>
+        
+            <div id="spacer"></div>
+        </main>
+        <footer>This website uses the IBM 'Plex' fonts.  Usage permitted under the Open Font License, which can be viewed here.</footer>        
+    </body>
+
+    <script src="scripts/index.js"></script>
+    
+</html>
